@@ -123,6 +123,16 @@ body.bg-dark {
   transition: background 0.2s, box-shadow 0.2s;
 }
 
+.bg-dark #themeBtn {
+  background-color: #2F354B !important;
+  padding: 0.6rem;
+}
+
+.bg-dark #themeBtn:hover {
+  background-color: #525868 !important;
+}
+
+
 .bg-dark .card {
   box-shadow: 0 2px 16px 0 #10131b;
   transition: background 0.2s, box-shadow 0.2s;
@@ -130,20 +140,20 @@ body.bg-dark {
 
 .bg-dark .card-footer {
   background: transparent !important;
-  border: none !important;
+  border: none;
 }
 
 .bg-dark .btn-check:checked + .btn,
 .bg-dark .btn.active,
 .bg-dark .btn:active {
-  background-color: #C4271F !important;
-  color: #fff !important;
-  border-color: #C4271F !important;
+  background-color: #C4271F;
+  color: #fff;
+  border-color: #C4271F;
 }
 
 .bg-dark .btn {
-  background-color: #1F2535 !important;
-  color: #fff !important;
+  background-color: #1F2535;
+  color: #fff;
   transition: background 0.2s, color 0.2s, border 0.2s;
 }
 
