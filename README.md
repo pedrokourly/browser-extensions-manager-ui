@@ -1,64 +1,49 @@
-# Lista 05 - Interface de gerenciamento de extensões do navegador
+# Browser Extensions Manager UI
 
-![Prévia do design para o desafio de codificação da Interface de gerenciamento de extensões do navegador](./preview.jpg)
+![Preview](./preview.jpg)
 
-## Instruções! 👋
+Interface de gerenciamento de extensões do navegador, desenvolvida como desafio prático de HTML, CSS e JavaScript. O objetivo é entregar uma experiência visual e funcional próxima ao design proposto, com foco em responsividade, acessibilidade e interatividade.
 
-**Para fazer este desafio, você precisa de um conhecimento básico de HTML, CSS e JavaScript.**
+## ✨ Funcionalidades
 
-## O desafio
+- Alternar entre extensões ativas e inativas
+- Filtrar extensões por status (Todas, Ativas, Inativas)
+- Remover extensões da lista (remoção apenas em memória)
+- Alternar entre tema claro e escuro (com persistência)
+- Layout responsivo para desktop e mobile
+- Estados de hover e foco em todos os elementos interativos
 
-Seu desafio é construir esta interface de gerenciamento de extensões do navegador e deixá-la o mais próxima possível do design.
+## 🚀 Como usar
 
-Você pode usar qualquer ferramenta que quiser para ajudá-lo a completar o desafio. Então, se você tem algo que gostaria de praticar, sinta-se à vontade para tentar.
+1. Clone ou baixe este repositório.
+2. Abra o arquivo `index.html` em seu navegador.
+3. Interaja com a interface: filtre, ative/desative e remova extensões à vontade!
 
-Acesse o repositório [Lista 05](https://github.com/andreluizfrancabatista/browser-extensions-manager-ui) para ter acesso aos artefatos referente a essa atividade. 
+> **Obs:** As remoções e alterações de status são feitas apenas em memória. Ao recarregar a página, a lista volta ao estado original do arquivo `data.json`.
 
-Os dados para as extensões estão disponíveis em um arquivo local `data.json`. Assim, você pode usar isso para adicionar os dados dinamicamente, se assim desejar.
+## 📁 Estrutura do Projeto
 
-Seus usuários devem ser capazes de:
+- `index.html` — Estrutura principal da interface
+- `style.css` — Estilos customizados e responsivos
+- `script.js` — Lógica de interação, filtros, tema e renderização dinâmica
+- `data.json` — Dados das extensões (nome, descrição, status, etc)
+- `assets/` — Imagens, ícones e fontes
+- `design/` — Referências de design (JPG)
 
-- Alternar entre estados ativo e inativo das extensões
-- Filtrar extensões ativas e inativas
-- Remover extensões da lista
-- Visualizar o layout ideal para a interface dependendo do tamanho da tela do dispositivo (responsividade)
-- Visualizar estados de hover e foco para todos os elementos interativos na página
+## 🖼️ Design
+Os layouts de referência estão na pasta `/design`, com versões para desktop e mobile, nos modos claro e escuro.
 
-## Onde encontrar tudo
+## 💡 Tecnologias Utilizadas
+- HTML5
+- CSS3 (com Bootstrap 5)
+- JavaScript (ES6+)
 
-Sua tarefa é construir o projeto seguindo os designs dentro da pasta `/design`. Você encontrará tanto uma versão mobile quanto desktop do design.
+## 📱 Responsividade
+O layout se adapta automaticamente para diferentes tamanhos de tela, garantindo boa usabilidade em dispositivos móveis e desktops.
 
-Os designs estão em formato JPG estático. Usar JPGs significa que você precisará usar seu melhor julgamento para estilos como `font-size`, `padding` e `margin`.
+## 👨‍💻 Autor
+Desenvolvido por [Pedro Kourly](https://www.github.com/pedrokourly) para a atividade "Lista 05".
 
-Todos os recursos necessários para este projeto estão na pasta `/assets`. As imagens já estão exportadas para o tamanho correto da tela e otimizadas.
+---
 
-## Construindo seu projeto
-
-Sinta-se à vontade para usar qualquer fluxo de trabalho com o qual se sinta confortável. Abaixo está um processo sugerido, mas não é obrigatório seguir estes passos:
-
-1. Inicialize seu projeto como um repositório público no [GitHub](https://github.com/). Criar um repositório facilitará o compartilhamento do seu código com a comunidade se você precisar de ajuda.
-2. Analise os designs para começar a planejar como você abordará o projeto. Este passo é crucial para ajudá-lo a pensar com antecedência sobre classes CSS para criar estilos reutilizáveis.
-3. Antes de adicionar qualquer estilo, estruture seu conteúdo com HTML. Escrever seu HTML primeiro pode ajudar a focar sua atenção em criar conteúdo bem estruturado.
-4. Escreva os estilos base para seu projeto, incluindo estilos gerais de conteúdo, como `font-family` e `font-size`.
-5. Comece adicionando estilos ao topo da página e trabalhe para baixo. Só passe para a próxima seção quando estiver satisfeito de ter completado a área em que está trabalhando.
-
-## Fazendo deploy do seu projeto
-
-Como mencionado acima, há muitas maneiras de hospedar seu projeto gratuitamente. Hosts recomendados são:
-
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
-
-## Crie um `README.md` personalizado
-
-Recomendo fortemente substituir este `README.md` por um personalizado com informações sobre sua aplicação. 
-
-## Enviando sua solução 📝
-
-- Data de entrega: 17/06/2025.
-- Individual.
-- Envie o link da sua solução no campo próprio no AVA.
-- O repositório deve conter todos os arquivos (HTML, CSS, JS).
-
-**Divirta-se construindo!** 🚀
+Desafio proposto por [andreluizfrancabatista/browser-extensions-manager-ui](https://github.com/andreluizfrancabatista/browser-extensions-manager-ui).
