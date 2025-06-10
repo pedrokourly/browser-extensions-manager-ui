@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -13,37 +13,69 @@
 
 <body>
   <div class="container">
+
     <nav class="navbar bg-body-tertiary mt-3 rounded-4 shadow">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="/assets/images/logo.svg" alt="Extensions" >
+          <img src="/assets/images/logo.svg" alt="Extensions">
         </a>
 
-        <button id="themeBtn" class="btn rounded-4" type="submit"><img src="/assets/images/icon-moon.svg" alt="Mudar Tema"></button>
+        <button id="themeBtn" class="btn rounded-4" type="submit"><img src="/assets/images/icon-moon.svg"
+            alt="Mudar Tema"></button>
       </div>
     </nav>
 
-    <header class="container mt-5 d-flex flex-column flex-md-row justify-content-between align-items-center">
+    <header class="mt-5 d-flex flex-column flex-md-row justify-content-between align-items-center">
       <h2 class="fw-bolder">Extensions List</h2>
 
-      <div>
-        <button class="btn btn-outline-secondary">All</button>
-        <button class="btn btn-outline-secondary">Active</button>
-        <button class="btn btn-outline-secondary">Inactive</button>
+      <div class="d-flex flex-row gap-2 mt-2 mt-md-0">
+        <input type="radio" class="btn-check" name="extensionFilter" id="filterAll" autocomplete="off" checked>
+        <label class="btn text-center px-3 rounded-5 shadow" for="filterAll">All</label>
+
+        <input type="radio" class="btn-check" name="extensionFilter" id="filterActive" autocomplete="off">
+        <label class="btn text-center px-3 rounded-5 shadow" for="filterActive">Active</label>
+
+        <input type="radio" class="btn-check" name="extensionFilter" id="filterInactive" autocomplete="off">
+        <label class="btn text-center px-3 rounded-5 shadow" for="filterInactive">Inactive</label>
       </div>
-      
     </header>
 
+    <main class="my-4">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+        <div class="col">
+          <div class="card h-100 w-100 rounded-4 shadow">
+            <div class="d-flex align-items-start p-3">
+              <img src="/assets/images/logo-devlens.svg" alt="devlens">
+              <div class="card-body py-0">
+                <h5 class="card-title fw-bolder">DevLens</h5>
+                <p class="card-text">Quickly inspect page layouts and visualize element boundaries.</p>
+              </div>
+            </div>
+            <div
+              class="card-footer bg-transparent border-0 px-3 pb-3 pt-0 d-flex justify-content-between align-items-center">
+              <button type="button" class="btn border rounded-5 fw-semibold">Remove</button>
+              <div class="form-check form-switch m-0 p-0">
+                <input class="form-check-input custom-switch-red" type="checkbox" role="switch" id="devlensSwitch"
+                  checked>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+    </main>
 
-    <div class="attribution">
+    <div class="attribution my-2">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
-      Coded by <a href="#">Pedro Kourly</a>.
+      Coded by <a href="https://www.github.com/pedrokourly">Pedro Kourly</a>.
     </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
     crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
