@@ -42,7 +42,7 @@ Os layouts de referência estão na pasta `/design`, com versões para desktop e
 O layout se adapta automaticamente para diferentes tamanhos de tela, garantindo boa usabilidade em dispositivos móveis e desktops.
 
 ## 👨‍💻 Autor
-Desenvolvido por [Pedro Kourly](https://www.github.com/pedrokourly) para a atividade "Lista 05".
+Desenvolvido por [Pedro Kourly](https://www.github.com/pedrokourly) para a atividade "Lista 05" da disciplina de Programação para Internet I.
 
 ---
 
